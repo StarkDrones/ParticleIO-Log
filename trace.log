@@ -1,0 +1,1078 @@
+SCRUBBED DATE INFO [main] io.particle.android.sdk.tinker.TinkerApplication - Device make and model=SCRUBBED,
+OS version=9,
+App version=3.2.0,
+2022.06.27 15:48:30.463 TRACE [pool-5-thread-5] com.google.android.gms.internal.firebase_remote_config.zzag - Total: 288 bytes
+2022.06.27 15:48:30.464 TRACE [pool-5-thread-5] com.google.android.gms.internal.firebase_remote_config.zzag - -------------- REQUEST  --------------
+\Accept-Encoding: gzip
+User-Agent: Google-API-Java-Client Google-HTTP-Java-Client/1.26.0-SNAPSHOT (gzip)
+x-goog-api-client: java/0 http-google-zzcy/1.26.0 linux/4.4.153
+x-android-package: io.particle.android.app
+\Content-Type: application/json; charset=UTF-8
+Content-Encoding: gzip
+Content-Length: 223
+2022.06.27 15:48:30.600 TRACE [pool-5-thread-5] com.google.android.gms.internal.firebase_remote_config.zzag - Total: 288 bytes
+2022.06.27 15:48:30.718 TRACE [pool-5-thread-5] com.google.android.gms.internal.firebase_remote_config.zzag - -------------- RESPONSE --------------
+200 OK
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Cache-Control: private
+Content-Encoding: gzip
+Content-Type: application/json; charset=UTF-8
+Date: Mon, 27 Jun 2022 19:48:31 GMT
+ETag: etag-1070197449556-fireperf-fetch-1769032129
+Server: ESF
+Transfer-Encoding: chunked
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+X-Android-Received-Millis: 1656359310711
+X-Android-Response-Source: NETWORK 200
+X-Android-Selected-Protocol: http/1.1
+X-Android-Sent-Millis: 1656359310598
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 0
+
+2022.06.27 15:48:30.721 TRACE [pool-5-thread-5] com.google.android.gms.internal.firebase_remote_config.zzag - Total: 1,246 bytes
+2022.06.27 15:48:30.722 TRACE [pool-5-thread-5] com.google.android.gms.internal.firebase_remote_config.zzag - {
+  "entries": {
+    "fpr_disabled_android_versions": "",
+    "fpr_disabled_ios_versions": "",
+    "fpr_disabled_web_versions": "",
+    "fpr_enabled": "true",
+    "fpr_log_endpoint_url": "https://firebaselogging.googleapis.com/v0cc/log?format=json_proto",
+    "fpr_log_source": "462",
+    "fpr_log_transport_android_percent": "100.0",
+    "fpr_log_transport_ios_percent": "100.0",
+    "fpr_log_transport_key": "SCRUBBED",
+    "fpr_rl_network_request_event_count_bg": "70",
+    "fpr_rl_network_request_event_count_fg": "700",
+    "fpr_rl_time_limit_sec": "600",
+    "fpr_rl_trace_event_count_bg": "30",
+    "fpr_rl_trace_event_count_fg": "300",
+    "fpr_session_gauge_cpu_capture_frequency_bg_ms": "0",
+    "fpr_session_gauge_cpu_capture_frequency_fg_ms": "100",
+    "fpr_session_gauge_memory_capture_frequency_bg_ms": "0",
+    "fpr_session_gauge_memory_capture_frequency_fg_ms": "100",
+    "fpr_session_max_length_min": "240",
+    "fpr_vc_fragment_sampling_rate": "0.1",
+    "fpr_vc_network_request_sampling_rate": "1.0",
+    "fpr_vc_session_sampling_rate": "0.029411764705882",
+    "fpr_vc_trace_sampling_rate": "1.0"
+  },
+  "appName": "io.particle.android.app",
+  "state": "UPDATE",
+  "templateVersion": "1009"
+}
+
+2022.06.27 15:48:31.929 INFO [DefaultDispatcher-worker-2] io.particle.android.sdk.utils.logging.FileLogging - Found 1 files ending in '.log'
+2022.06.27 15:48:31.936 INFO [DefaultDispatcher-worker-2] io.particle.android.sdk.utils.logging.FileLogging - No old zip file to delete, bailing out. Zip file path: /storage/emulated/0/Android/data/io.particle.android.app/cache/particle_android_app_logs.zip
+2022.06.27 15:48:59.220 DEBUG [AsyncTask #1] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> CONNECTION SCRUBBED
+2022.06.27 15:48:59.224 DEBUG [AsyncTask #1] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000000     6 SETTINGS      
+2022.06.27 15:48:59.225 DEBUG [AsyncTask #1] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000000     4 WINDOW_UPDATE 
+2022.06.27 15:48:59.230 DEBUG [AsyncTask #1] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000003   250 HEADERS       END_HEADERS
+2022.06.27 15:48:59.231 DEBUG [AsyncTask #1] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000003    75 DATA          END_STREAM
+2022.06.27 15:48:59.253 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000000    18 SETTINGS      
+2022.06.27 15:48:59.255 DEBUG [OkHttp api.particle.io ACK Settings] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000000     0 SETTINGS      ACK
+2022.06.27 15:48:59.256 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000000     4 WINDOW_UPDATE 
+2022.06.27 15:48:59.299 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000000     0 SETTINGS      ACK
+2022.06.27 15:48:59.376 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000003   178 HEADERS       END_HEADERS
+2022.06.27 15:48:59.393 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000003    76 DATA          
+2022.06.27 15:48:59.394 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000003     0 DATA          END_STREAM
+2022.06.27 15:49:06.517 DEBUG [AsyncTask #3] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000005   250 HEADERS       END_HEADERS
+2022.06.27 15:49:06.519 DEBUG [AsyncTask #3] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000005    72 DATA          END_STREAM
+2022.06.27 15:49:07.072 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000005   203 HEADERS       END_HEADERS
+2022.06.27 15:49:07.082 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000005   161 DATA          
+2022.06.27 15:49:07.084 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000005     0 DATA          END_STREAM
+2022.06.27 15:49:07.204 INFO [DefaultDispatcher-worker-2] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:49:07.215 DEBUG [DefaultDispatcher-worker-2] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000007   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:49:07.290 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000007   110 HEADERS       END_HEADERS
+2022.06.27 15:49:07.292 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000007     2 DATA          
+2022.06.27 15:49:07.294 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000007     0 DATA          END_STREAM
+2022.06.27 15:49:07.300 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:49:07.301 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:49:07.304 INFO [main] io.particle.android.sdk.ui.devicelist.DeviceListTransformer - Transformed list of 0 devices down to 0 using config=DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:49:18.174 DEBUG [DefaultDispatcher-worker-1] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000009   165 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:49:18.399 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000009   112 HEADERS       END_HEADERS
+2022.06.27 15:49:18.407 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000009  1459 DATA          
+2022.06.27 15:49:18.410 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000009     0 DATA          END_STREAM
+2022.06.27 15:49:18.463 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=1
+2022.06.27 15:49:18.463 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=2
+2022.06.27 15:49:18.463 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=3
+2022.06.27 15:49:18.464 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=4
+2022.06.27 15:49:18.464 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=5
+2022.06.27 15:49:19.007 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:49:19.724 DEBUG [AsyncTask #2] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000000b   212 HEADERS       END_HEADERS
+2022.06.27 15:49:19.724 DEBUG [AsyncTask #2] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000000b    24 DATA          END_STREAM
+2022.06.27 15:49:21.465 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000000b   111 HEADERS       END_HEADERS
+2022.06.27 15:49:21.471 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000000b    96 DATA          
+2022.06.27 15:49:21.473 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000000b     0 DATA          END_STREAM
+2022.06.27 15:49:45.701 DEBUG [AsyncTask #5] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000000d   212 HEADERS       END_HEADERS
+2022.06.27 15:49:45.703 DEBUG [AsyncTask #5] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000000d    24 DATA          END_STREAM
+2022.06.27 15:49:45.909 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000000d   111 HEADERS       END_HEADERS
+2022.06.27 15:49:45.917 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000000d    96 DATA          
+2022.06.27 15:49:45.921 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000000d     0 DATA          END_STREAM
+2022.06.27 15:49:54.103 DEBUG [AsyncTask #6] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000000f   212 HEADERS       END_HEADERS
+2022.06.27 15:49:54.107 DEBUG [AsyncTask #6] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000000f    24 DATA          END_STREAM
+2022.06.27 15:49:54.325 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000000f   111 HEADERS       END_HEADERS
+2022.06.27 15:49:54.328 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000000f    96 DATA          
+2022.06.27 15:49:54.329 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000000f     0 DATA          END_STREAM
+2022.06.27 15:49:59.137 DEBUG [AsyncTask #7] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000011   212 HEADERS       END_HEADERS
+2022.06.27 15:49:59.141 DEBUG [AsyncTask #7] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000011    24 DATA          END_STREAM
+2022.06.27 15:49:59.359 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000011   110 HEADERS       END_HEADERS
+2022.06.27 15:49:59.366 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000011    96 DATA          
+2022.06.27 15:49:59.369 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000011     0 DATA          END_STREAM
+2022.06.27 15:50:59.345 DEBUG [AsyncTask #8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000013   212 HEADERS       END_HEADERS
+2022.06.27 15:50:59.347 DEBUG [AsyncTask #8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000013    24 DATA          END_STREAM
+2022.06.27 15:50:59.557 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000013   111 HEADERS       END_HEADERS
+2022.06.27 15:50:59.565 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000013    96 DATA          
+2022.06.27 15:50:59.567 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000013     0 DATA          END_STREAM
+2022.06.27 15:51:07.502 DEBUG [AsyncTask #9] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000015   212 HEADERS       END_HEADERS
+2022.06.27 15:51:07.503 DEBUG [AsyncTask #9] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000015    24 DATA          END_STREAM
+2022.06.27 15:51:07.715 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000015   111 HEADERS       END_HEADERS
+2022.06.27 15:51:07.722 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000015    96 DATA          
+2022.06.27 15:51:07.726 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000015     0 DATA          END_STREAM
+2022.06.27 15:51:17.701 DEBUG [AsyncTask #10] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000017   250 HEADERS       END_HEADERS
+2022.06.27 15:51:17.703 DEBUG [AsyncTask #10] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000017    72 DATA          END_STREAM
+2022.06.27 15:51:18.180 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000017   178 HEADERS       END_HEADERS
+2022.06.27 15:51:18.182 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000017    76 DATA          
+2022.06.27 15:51:18.183 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000017     0 DATA          END_STREAM
+2022.06.27 15:51:24.332 DEBUG [AsyncTask #11] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000019   250 HEADERS       END_HEADERS
+2022.06.27 15:51:24.334 DEBUG [AsyncTask #11] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000019    72 DATA          END_STREAM
+2022.06.27 15:51:24.551 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000019   204 HEADERS       END_HEADERS
+2022.06.27 15:51:24.560 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000019   161 DATA          
+2022.06.27 15:51:24.563 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000019     0 DATA          END_STREAM
+2022.06.27 15:51:24.626 INFO [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:51:24.628 DEBUG [DefaultDispatcher-worker-6] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000001b   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:51:24.705 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000001b   110 HEADERS       END_HEADERS
+2022.06.27 15:51:24.707 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000001b     2 DATA          
+2022.06.27 15:51:24.709 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000001b     0 DATA          END_STREAM
+2022.06.27 15:51:24.711 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:51:24.712 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:51:24.713 INFO [main] io.particle.android.sdk.ui.devicelist.DeviceListTransformer - Transformed list of 0 devices down to 0 using config=DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:51:27.231 DEBUG [DefaultDispatcher-worker-4] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000001d   165 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:51:27.423 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000001d   113 HEADERS       END_HEADERS
+2022.06.27 15:51:27.424 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000001d  1459 DATA          
+2022.06.27 15:51:27.424 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000001d     0 DATA          END_STREAM
+2022.06.27 15:51:27.461 TRACE [DefaultDispatcher-worker-4] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=6
+2022.06.27 15:51:27.462 TRACE [DefaultDispatcher-worker-4] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=7
+2022.06.27 15:51:27.463 TRACE [DefaultDispatcher-worker-4] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=8
+2022.06.27 15:51:27.463 TRACE [DefaultDispatcher-worker-4] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=9
+2022.06.27 15:51:27.463 TRACE [DefaultDispatcher-worker-4] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=10
+2022.06.27 15:51:28.384 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:51:29.052 INFO [DefaultDispatcher-worker-4] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:51:29.054 DEBUG [DefaultDispatcher-worker-4] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000001f   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:51:29.144 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000001f   110 HEADERS       END_HEADERS
+2022.06.27 15:51:29.144 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000001f     2 DATA          
+2022.06.27 15:51:29.145 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000001f     0 DATA          END_STREAM
+2022.06.27 15:51:29.147 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:51:29.148 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:51:29.148 INFO [main] io.particle.android.sdk.ui.devicelist.DeviceListTransformer - Transformed list of 0 devices down to 0 using config=DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:51:31.233 DEBUG [DefaultDispatcher-worker-2] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000021   165 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:51:31.666 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000021   113 HEADERS       END_HEADERS
+2022.06.27 15:51:31.668 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000021  1459 DATA          
+2022.06.27 15:51:31.669 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000021     0 DATA          END_STREAM
+2022.06.27 15:51:31.698 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=11
+2022.06.27 15:51:31.699 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=12
+2022.06.27 15:51:31.700 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=13
+2022.06.27 15:51:31.700 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=14
+2022.06.27 15:51:31.701 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=15
+2022.06.27 15:51:31.758 INFO [main] io.particle.mesh.setup.flow.MeshFlowRunner - startFlow()
+2022.06.27 15:51:31.759 INFO [main] io.particle.mesh.setup.flow.context.SetupContexts - 'flowIntent' value being updated to: FIRST_TIME_SETUP
+2022.06.27 15:51:31.759 INFO [main] io.particle.mesh.setup.flow.context.SetupContexts - 'currentFlow' value being updated to: [PREFLOW]
+2022.06.27 15:51:31.761 INFO [DefaultDispatcher-worker-5] io.particle.mesh.setup.flow.MeshFlowExecutor - runCurrentFlow()
+2022.06.27 15:51:31.762 INFO [main] io.particle.mesh.ui.BaseFlowFragment - Resumed fragment: SelectDeviceFragment
+2022.06.27 15:51:31.763 INFO [DefaultDispatcher-worker-7] io.particle.mesh.setup.flow.MeshFlowExecutor - assembleSteps(), steps=[PREFLOW]
+2022.06.27 15:51:31.767 INFO [DefaultDispatcher-worker-7] io.particle.mesh.setup.flow.MeshSetupStep - RUNNING STEP: StepGetTargetDeviceInfo
+2022.06.27 15:51:31.843 INFO [main] io.particle.android.common.Location - Location services available: true
+2022.06.27 15:51:31.848 INFO [main] io.particle.mesh.ui.BaseFlowFragment - Paused fragment: SelectDeviceFragment
+2022.06.27 15:51:31.848 INFO [main] io.particle.mesh.ui.BaseFlowActivity - onPause()
+2022.06.27 15:51:31.864 INFO [main] io.particle.mesh.ui.BaseFlowUiDelegate - Navigating to new target: io.particle.android.app:id/action_global_scanJoinerCodeIntroFragment, shouldPopBackstack=true
+2022.06.27 15:51:31.864 INFO [main] io.particle.mesh.ui.BaseFlowUiDelegate - showGlobalProgressSpinner(): false
+2022.06.27 15:51:31.864 TRACE [main] io.particle.mesh.common.android.livedata.LiveDataSuspender - beforeAwait()
+2022.06.27 15:51:31.865 TRACE [main] io.particle.mesh.common.android.livedata.LiveDataSuspender - startAsyncWork()
+2022.06.27 15:51:31.867 INFO [main] io.particle.mesh.ui.BaseFlowUiDelegate - Popping back stack
+2022.06.27 15:51:31.868 INFO [main] io.particle.mesh.ui.BaseNavigationToolImpl - Popping back stack
+2022.06.27 15:51:31.887 INFO [main] io.particle.mesh.ui.BaseNavigationToolImpl - Navigating to new target: io.particle.android.app:id/action_global_scanJoinerCodeIntroFragment
+2022.06.27 15:51:31.922 INFO [main] io.particle.mesh.ui.BaseFlowFragment - Destroyed fragment: SelectDeviceFragment
+2022.06.27 15:51:32.551 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:51:35.703 INFO [main] io.particle.mesh.ui.BaseFlowFragment - Resumed fragment: ScanSetupTargetCodeIntroFragment
+2022.06.27 15:51:35.705 INFO [main] io.particle.android.common.Location - Location services available: true
+2022.06.27 15:51:43.153 INFO [main] io.particle.mesh.ui.BaseFlowFragment - Paused fragment: ScanSetupTargetCodeIntroFragment
+2022.06.27 15:51:43.153 INFO [main] io.particle.mesh.ui.BaseFlowActivity - onPause()
+2022.06.27 15:51:43.156 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:51:43.157 INFO [main] io.particle.mesh.setup.flow.FlowRunnerAccessModel - shutdown()
+2022.06.27 15:51:43.159 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:51:43.160 INFO [main] io.particle.mesh.setup.flow.MeshFlowRunner - endCurrentFlow()
+2022.06.27 15:51:43.161 INFO [main] io.particle.mesh.ui.BaseFlowUiDelegate - showGlobalProgressSpinner(): false
+2022.06.27 15:51:43.163 INFO [main] io.particle.mesh.setup.flow.MeshFlowRunner - Clearing state & cancelling scopes...
+2022.06.27 15:51:43.163 INFO [main] io.particle.mesh.setup.flow.context.SetupContexts - clearState()
+2022.06.27 15:51:43.164 INFO [main] io.particle.mesh.setup.flow.context.BLEContext - clearState()
+2022.06.27 15:51:43.164 INFO [main] io.particle.mesh.setup.flow.context.CellularContext - clearState()
+2022.06.27 15:51:43.164 INFO [main] io.particle.mesh.setup.flow.context.CloudConnectionContext - clearState()
+2022.06.27 15:51:43.165 INFO [main] io.particle.mesh.setup.flow.context.DeviceContext - clearState()
+2022.06.27 15:51:43.165 INFO [main] io.particle.mesh.setup.flow.context.MeshContext - clearState()
+2022.06.27 15:51:43.165 INFO [main] io.particle.mesh.setup.flow.context.WifiContext - clearState()
+2022.06.27 15:51:43.166 INFO [main] io.particle.mesh.setup.flow.context.SetupContexts - 'flowIntent' value being updated to: null
+2022.06.27 15:51:43.166 INFO [main] io.particle.mesh.setup.flow.context.SetupContexts - 'currentFlow' value being updated to: []
+2022.06.27 15:51:43.166 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:51:43.169 INFO [main] io.particle.mesh.setup.flow.MeshFlowExecutor - endSetup()
+2022.06.27 15:51:43.181 INFO [main] io.particle.mesh.setup.flow.DeviceConnector - doClearCache(): clearing cache for 0 devices
+2022.06.27 15:51:43.181 INFO [main] io.particle.mesh.setup.flow.DeviceConnector - doClearCache(): clearing cache for 0 devices
+2022.06.27 15:51:43.189 INFO [DefaultDispatcher-worker-3] io.particle.mesh.setup.flow.MeshSetupStep - RUNNING STEP COMPLETED WITH EXCEPTION: StepGetTargetDeviceInfo
+2022.06.27 15:51:43.226 INFO [DefaultDispatcher-worker-2] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:51:43.228 DEBUG [DefaultDispatcher-worker-2] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000023   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:51:43.298 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000023   110 HEADERS       END_HEADERS
+2022.06.27 15:51:43.299 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000023     2 DATA          
+2022.06.27 15:51:43.300 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000023     0 DATA          END_STREAM
+2022.06.27 15:51:43.303 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:51:43.303 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:51:43.304 INFO [main] io.particle.android.sdk.ui.devicelist.DeviceListTransformer - Transformed list of 0 devices down to 0 using config=DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:51:43.695 INFO [main] io.particle.mesh.common.android.livedata.ClearValueOnInactiveLiveData - LD deactivated, clearing value
+2022.06.27 15:51:43.696 INFO [main] io.particle.mesh.common.android.livedata.ClearValueOnInactiveLiveData - LD deactivated, clearing value
+2022.06.27 15:51:43.698 INFO [main] io.particle.mesh.setup.flow.FlowRunnerAccessModel - onCleared()
+2022.06.27 15:51:43.698 INFO [main] io.particle.mesh.setup.flow.FlowRunnerAccessModel - shutdown()
+2022.06.27 15:51:43.699 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:51:43.699 INFO [main] io.particle.mesh.setup.flow.MeshFlowRunner - endCurrentFlow()
+2022.06.27 15:51:43.699 INFO [main] io.particle.mesh.ui.BaseFlowUiDelegate - showGlobalProgressSpinner(): false
+2022.06.27 15:51:43.700 INFO [main] io.particle.mesh.setup.flow.MeshFlowRunner - Clearing state & cancelling scopes...
+2022.06.27 15:51:43.700 INFO [main] io.particle.mesh.setup.flow.context.SetupContexts - clearState()
+2022.06.27 15:51:43.700 INFO [main] io.particle.mesh.setup.flow.context.BLEContext - clearState()
+2022.06.27 15:51:43.700 INFO [main] io.particle.mesh.setup.flow.context.CellularContext - clearState()
+2022.06.27 15:51:43.701 INFO [main] io.particle.mesh.setup.flow.context.CloudConnectionContext - clearState()
+2022.06.27 15:51:43.701 INFO [main] io.particle.mesh.setup.flow.context.DeviceContext - clearState()
+2022.06.27 15:51:43.701 INFO [main] io.particle.mesh.setup.flow.context.MeshContext - clearState()
+2022.06.27 15:51:43.701 INFO [main] io.particle.mesh.setup.flow.context.WifiContext - clearState()
+2022.06.27 15:51:43.702 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:51:43.702 INFO [main] io.particle.mesh.setup.flow.MeshFlowExecutor - endSetup()
+2022.06.27 15:51:43.703 INFO [main] io.particle.mesh.ui.BaseFlowFragment - Destroyed fragment: ScanSetupTargetCodeIntroFragment
+2022.06.27 15:51:43.710 INFO [main] io.particle.mesh.setup.flow.DeviceConnector - doClearCache(): clearing cache for 0 devices
+2022.06.27 15:51:44.673 DEBUG [DefaultDispatcher-worker-3] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000025   165 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:51:44.873 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000025   113 HEADERS       END_HEADERS
+2022.06.27 15:51:44.875 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000025  1459 DATA          
+2022.06.27 15:51:44.876 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000025     0 DATA          END_STREAM
+2022.06.27 15:51:44.918 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=16
+2022.06.27 15:51:44.918 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=17
+2022.06.27 15:51:44.918 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=18
+2022.06.27 15:51:44.920 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=19
+2022.06.27 15:51:44.921 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=20
+2022.06.27 15:51:45.456 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:51:45.838 DEBUG [AsyncTask #12] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000027   212 HEADERS       END_HEADERS
+2022.06.27 15:51:45.838 DEBUG [AsyncTask #12] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000027    24 DATA          END_STREAM
+2022.06.27 15:51:46.030 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000027   111 HEADERS       END_HEADERS
+2022.06.27 15:51:46.031 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000027    96 DATA          
+2022.06.27 15:51:46.032 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000027     0 DATA          END_STREAM
+2022.06.27 15:51:53.030 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000000     8 GOAWAY        
+2022.06.27 15:53:26.124 INFO [AsyncTask #16] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:53:26.340 DEBUG [AsyncTask #16] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> CONNECTION SCRUBBED
+2022.06.27 15:53:26.349 DEBUG [AsyncTask #16] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000000     6 SETTINGS      
+2022.06.27 15:53:26.350 DEBUG [AsyncTask #16] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000000     4 WINDOW_UPDATE 
+2022.06.27 15:53:26.354 DEBUG [AsyncTask #16] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000003   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:26.378 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000000    18 SETTINGS      
+2022.06.27 15:53:26.380 DEBUG [OkHttp api.particle.io ACK Settings] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000000     0 SETTINGS      ACK
+2022.06.27 15:53:26.381 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000000     4 WINDOW_UPDATE 
+2022.06.27 15:53:26.415 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000000     0 SETTINGS      ACK
+2022.06.27 15:53:26.454 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000003   111 HEADERS       END_HEADERS
+2022.06.27 15:53:26.456 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000003   557 DATA          
+2022.06.27 15:53:26.456 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000003     0 DATA          END_STREAM
+2022.06.27 15:53:26.470 INFO [AsyncTask #17] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:53:26.472 DEBUG [AsyncTask #17] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000005   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:26.526 INFO [AsyncTask #18] io.particle.android.sdk.cloud.ParticleCloud - getDevice(): 1c004c000b51353432383931
+2022.06.27 15:53:26.531 DEBUG [AsyncTask #18] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000007   174 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:26.594 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000005   111 HEADERS       END_HEADERS
+2022.06.27 15:53:26.595 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000005   557 DATA          
+2022.06.27 15:53:26.595 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000005     0 DATA          END_STREAM
+2022.06.27 15:53:26.597 INFO [AsyncTask #17] io.particle.android.sdk.cloud.ParticleCloud - getDevice(): 1c004c000b51353432383931
+2022.06.27 15:53:26.598 DEBUG [AsyncTask #17] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000009   174 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:26.619 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000007   112 HEADERS       END_HEADERS
+2022.06.27 15:53:26.619 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000007   589 DATA          
+2022.06.27 15:53:26.620 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000007     0 DATA          END_STREAM
+2022.06.27 15:53:26.621 INFO [AsyncTask #18] io.particle.android.sdk.cloud.ParticleCloud - sendUpdateBroadcast()
+2022.06.27 15:53:26.623 INFO [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:53:26.625 DEBUG [DefaultDispatcher-worker-3] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000000b   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:26.625 INFO [DefaultDispatcher-worker-4] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:53:26.627 DEBUG [DefaultDispatcher-worker-4] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000000d   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:26.785 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000000b   112 HEADERS       END_HEADERS
+2022.06.27 15:53:26.786 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000000b   557 DATA          
+2022.06.27 15:53:26.786 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000000b     0 DATA          END_STREAM
+2022.06.27 15:53:26.786 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000000d   112 HEADERS       END_HEADERS
+2022.06.27 15:53:26.787 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000000d   557 DATA          
+2022.06.27 15:53:26.787 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000000d     0 DATA          END_STREAM
+2022.06.27 15:53:26.789 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:53:26.789 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:53:26.789 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:53:26.790 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:53:27.947 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000009   112 HEADERS       END_HEADERS
+2022.06.27 15:53:27.948 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000009   589 DATA          
+2022.06.27 15:53:27.949 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000009     0 DATA          END_STREAM
+2022.06.27 15:53:27.951 INFO [AsyncTask #17] io.particle.android.sdk.cloud.ParticleCloud - sendUpdateBroadcast()
+2022.06.27 15:53:27.952 INFO [AsyncTask #17] io.particle.android.sdk.cloud.ParticleCloud - sendUpdateBroadcast()
+2022.06.27 15:53:27.953 INFO [DefaultDispatcher-worker-4] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:53:27.956 DEBUG [DefaultDispatcher-worker-4] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000000f   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:27.956 INFO [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:53:27.956 INFO [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:53:27.958 INFO [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:53:27.958 DEBUG [AsyncTask #17] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000011   230 HEADERS       END_HEADERS
+2022.06.27 15:53:27.959 DEBUG [AsyncTask #17] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000011    17 DATA          END_STREAM
+2022.06.27 15:53:27.960 DEBUG [DefaultDispatcher-worker-5] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000013   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:27.961 DEBUG [DefaultDispatcher-worker-1] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000015   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:27.962 DEBUG [DefaultDispatcher-worker-3] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000017   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:28.018 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000000f   112 HEADERS       END_HEADERS
+2022.06.27 15:53:28.019 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000000f   557 DATA          
+2022.06.27 15:53:28.020 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000000f     0 DATA          END_STREAM
+2022.06.27 15:53:28.022 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:53:28.023 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:53:28.055 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000015   112 HEADERS       END_HEADERS
+2022.06.27 15:53:28.056 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000015   557 DATA          
+2022.06.27 15:53:28.056 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000015     0 DATA          END_STREAM
+2022.06.27 15:53:28.059 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:53:28.059 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:53:28.070 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000013   112 HEADERS       END_HEADERS
+2022.06.27 15:53:28.071 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000013   557 DATA          
+2022.06.27 15:53:28.071 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000013     0 DATA          END_STREAM
+2022.06.27 15:53:28.073 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:53:28.074 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:53:28.085 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000011   111 HEADERS       END_HEADERS
+2022.06.27 15:53:28.086 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000011    95 DATA          
+2022.06.27 15:53:28.086 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000011     0 DATA          END_STREAM
+2022.06.27 15:53:28.097 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000017   112 HEADERS       END_HEADERS
+2022.06.27 15:53:28.098 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000017   557 DATA          
+2022.06.27 15:53:28.098 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000017     0 DATA          END_STREAM
+2022.06.27 15:53:28.101 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:53:28.101 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:53:41.641 INFO [AsyncTask #19] io.particle.android.sdk.cloud.ParticleCloud - getDevice(): 1c004c000b51353432383931
+2022.06.27 15:53:41.646 DEBUG [AsyncTask #19] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000019   174 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:41.748 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000019   112 HEADERS       END_HEADERS
+2022.06.27 15:53:41.753 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000019   599 DATA          
+2022.06.27 15:53:41.755 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000019     0 DATA          END_STREAM
+2022.06.27 15:53:41.761 INFO [AsyncTask #19] io.particle.android.sdk.cloud.ParticleCloud - sendUpdateBroadcast()
+2022.06.27 15:53:41.763 INFO [AsyncTask #19] io.particle.android.sdk.cloud.ParticleCloud - sendUpdateBroadcast()
+2022.06.27 15:53:41.769 DEBUG [AsyncTask #19] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000001b   230 HEADERS       END_HEADERS
+2022.06.27 15:53:41.770 INFO [DefaultDispatcher-worker-2] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:53:41.771 INFO [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:53:41.772 INFO [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:53:41.773 INFO [DefaultDispatcher-worker-4] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:53:41.773 DEBUG [DefaultDispatcher-worker-2] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000001d   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:41.776 DEBUG [DefaultDispatcher-worker-4] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000001f   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:41.778 DEBUG [AsyncTask #19] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000001b    20 DATA          END_STREAM
+2022.06.27 15:53:41.779 DEBUG [DefaultDispatcher-worker-5] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000021   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:41.781 DEBUG [DefaultDispatcher-worker-1] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000023   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:41.838 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000001d   112 HEADERS       END_HEADERS
+2022.06.27 15:53:41.839 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000001d   567 DATA          
+2022.06.27 15:53:41.840 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000001d     0 DATA          END_STREAM
+2022.06.27 15:53:41.844 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:53:41.844 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:53:41.876 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000001f   111 HEADERS       END_HEADERS
+2022.06.27 15:53:41.877 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000001f   567 DATA          
+2022.06.27 15:53:41.877 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000001f     0 DATA          END_STREAM
+2022.06.27 15:53:41.880 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:53:41.880 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:53:41.895 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000023   112 HEADERS       END_HEADERS
+2022.06.27 15:53:41.896 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000023   567 DATA          
+2022.06.27 15:53:41.897 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000023     0 DATA          END_STREAM
+2022.06.27 15:53:41.901 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:53:41.901 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:53:41.919 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000001b   111 HEADERS       END_HEADERS
+2022.06.27 15:53:41.920 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000001b    98 DATA          
+2022.06.27 15:53:41.921 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000001b     0 DATA          END_STREAM
+2022.06.27 15:53:41.921 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000021   112 HEADERS       END_HEADERS
+2022.06.27 15:53:41.923 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000021   567 DATA          
+2022.06.27 15:53:41.923 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000021     0 DATA          END_STREAM
+2022.06.27 15:53:41.953 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:53:41.953 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:53:41.963 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelAll()
+2022.06.27 15:53:41.979 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelAll()
+2022.06.27 15:53:42.046 INFO [DefaultDispatcher-worker-7] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:53:42.048 DEBUG [DefaultDispatcher-worker-7] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000025   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:42.106 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000025   111 HEADERS       END_HEADERS
+2022.06.27 15:53:42.106 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000025   570 DATA          
+2022.06.27 15:53:42.106 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000025     0 DATA          END_STREAM
+2022.06.27 15:53:42.108 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:53:42.109 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:53:42.110 INFO [DefaultDispatcher-worker-7] io.particle.android.sdk.cloud.ParticleCloud - getDevice(): 1c004c000b51353432383931
+2022.06.27 15:53:42.110 INFO [main] io.particle.android.sdk.ui.devicelist.DeviceListTransformer - Transformed list of 1 devices down to 1 using config=DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:53:42.112 DEBUG [DefaultDispatcher-worker-7] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000027   174 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:42.187 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000027   112 HEADERS       END_HEADERS
+2022.06.27 15:53:42.188 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000027   602 DATA          
+2022.06.27 15:53:42.188 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000027     0 DATA          END_STREAM
+2022.06.27 15:53:42.189 INFO [DefaultDispatcher-worker-7] io.particle.android.sdk.cloud.ParticleCloud - sendUpdateBroadcast()
+2022.06.27 15:53:42.196 INFO [DefaultDispatcher-worker-7] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:53:42.197 DEBUG [DefaultDispatcher-worker-7] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000029   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:42.266 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000029   112 HEADERS       END_HEADERS
+2022.06.27 15:53:42.267 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000029   570 DATA          
+2022.06.27 15:53:42.267 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000029     0 DATA          END_STREAM
+2022.06.27 15:53:42.273 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:53:42.274 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:53:42.274 INFO [main] io.particle.android.sdk.ui.devicelist.DeviceListTransformer - Transformed list of 1 devices down to 1 using config=DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:53:43.972 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=21
+2022.06.27 15:53:43.972 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=22
+2022.06.27 15:53:43.972 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=23
+2022.06.27 15:53:43.973 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=24
+2022.06.27 15:53:43.974 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=25
+2022.06.27 15:53:44.066 DEBUG [DefaultDispatcher-worker-8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000002b   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:44.215 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000002b   112 HEADERS       END_HEADERS
+2022.06.27 15:53:44.216 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000002b   570 DATA          
+2022.06.27 15:53:44.216 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000002b     0 DATA          END_STREAM
+2022.06.27 15:53:44.218 INFO [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - getDevice(): 1c004c000b51353432383931
+2022.06.27 15:53:44.219 DEBUG [DefaultDispatcher-worker-8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000002d   174 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:44.318 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000002d   112 HEADERS       END_HEADERS
+2022.06.27 15:53:44.318 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000002d   602 DATA          
+2022.06.27 15:53:44.319 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000002d     0 DATA          END_STREAM
+2022.06.27 15:53:44.320 INFO [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - sendUpdateBroadcast()
+2022.06.27 15:53:44.340 INFO [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:53:44.341 DEBUG [DefaultDispatcher-worker-5] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000002f   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:44.414 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000002f   112 HEADERS       END_HEADERS
+2022.06.27 15:53:44.415 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000002f   570 DATA          
+2022.06.27 15:53:44.415 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000002f     0 DATA          END_STREAM
+2022.06.27 15:53:44.417 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:53:44.417 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:53:44.418 INFO [main] io.particle.android.sdk.ui.devicelist.DeviceListTransformer - Transformed list of 1 devices down to 1 using config=DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:53:51.155 TRACE [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=27
+2022.06.27 15:53:51.159 TRACE [AsyncTask #16] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=26
+2022.06.27 15:53:51.167 TRACE [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=28
+2022.06.27 15:53:51.168 TRACE [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=29
+2022.06.27 15:53:51.170 TRACE [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=30
+2022.06.27 15:53:51.170 TRACE [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=31
+2022.06.27 15:53:51.987 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelAll()
+2022.06.27 15:53:51.995 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelAll()
+2022.06.27 15:53:52.007 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:53:52.278 TRACE [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=32
+2022.06.27 15:53:52.278 TRACE [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=33
+2022.06.27 15:53:52.278 TRACE [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=34
+2022.06.27 15:53:52.278 TRACE [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=35
+2022.06.27 15:53:52.279 TRACE [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=36
+2022.06.27 15:53:52.349 DEBUG [DefaultDispatcher-worker-8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000031   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:52.433 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000031   112 HEADERS       END_HEADERS
+2022.06.27 15:53:52.433 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000031   570 DATA          
+2022.06.27 15:53:52.434 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000031     0 DATA          END_STREAM
+2022.06.27 15:53:52.435 INFO [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - getDevice(): 1c004c000b51353432383931
+2022.06.27 15:53:52.438 DEBUG [DefaultDispatcher-worker-8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000033   174 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:52.706 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000033   112 HEADERS       END_HEADERS
+2022.06.27 15:53:52.707 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000033   602 DATA          
+2022.06.27 15:53:52.707 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000033     0 DATA          END_STREAM
+2022.06.27 15:53:52.709 INFO [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - sendUpdateBroadcast()
+2022.06.27 15:53:52.729 INFO [DefaultDispatcher-worker-7] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:53:52.731 DEBUG [DefaultDispatcher-worker-7] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000035   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:53:52.804 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000035   112 HEADERS       END_HEADERS
+2022.06.27 15:53:52.804 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000035   570 DATA          
+2022.06.27 15:53:52.805 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000035     0 DATA          END_STREAM
+2022.06.27 15:53:52.807 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:53:52.807 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:53:52.807 INFO [main] io.particle.android.sdk.ui.devicelist.DeviceListTransformer - Transformed list of 1 devices down to 1 using config=DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:54:00.641 INFO [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - getDevice(): 1c004c000b51353432383931
+2022.06.27 15:54:00.651 DEBUG [DefaultDispatcher-worker-8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000037   174 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:54:00.736 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000037   111 HEADERS       END_HEADERS
+2022.06.27 15:54:00.737 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000037   602 DATA          
+2022.06.27 15:54:00.737 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000037     0 DATA          END_STREAM
+2022.06.27 15:54:00.739 INFO [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - sendUpdateBroadcast()
+2022.06.27 15:54:00.741 DEBUG [DefaultDispatcher-worker-8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000039   229 HEADERS       END_HEADERS
+2022.06.27 15:54:00.742 DEBUG [DefaultDispatcher-worker-8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000039     8 DATA          END_STREAM
+2022.06.27 15:54:00.753 INFO [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:54:00.757 DEBUG [DefaultDispatcher-worker-3] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000003b   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:54:00.856 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000039   111 HEADERS       END_HEADERS
+2022.06.27 15:54:00.857 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000039    67 DATA          
+2022.06.27 15:54:00.858 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000039     0 DATA          END_STREAM
+2022.06.27 15:54:00.910 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000003b   112 HEADERS       END_HEADERS
+2022.06.27 15:54:00.914 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000003b   570 DATA          
+2022.06.27 15:54:00.916 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000003b     0 DATA          END_STREAM
+2022.06.27 15:54:00.925 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:54:00.926 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:54:00.927 INFO [main] io.particle.android.sdk.ui.devicelist.DeviceListTransformer - Transformed list of 1 devices down to 1 using config=DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:54:02.305 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:54:24.440 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=27
+2022.06.27 15:54:24.440 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=28
+2022.06.27 15:54:24.440 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=29
+2022.06.27 15:54:24.440 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=30
+2022.06.27 15:54:24.440 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=31
+2022.06.27 15:54:24.440 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=38
+2022.06.27 15:54:24.441 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=39
+2022.06.27 15:54:24.441 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=40
+2022.06.27 15:54:24.446 TRACE [AsyncTask #16] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=37
+2022.06.27 15:54:24.446 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=41
+2022.06.27 15:54:24.446 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=42
+2022.06.27 15:54:24.516 INFO [main] io.particle.mesh.ui.BaseFlowFragment - Resumed fragment: ControlPanelLandingFragment
+2022.06.27 15:54:24.518 INFO [main] io.particle.android.common.Location - Location services available: true
+2022.06.27 15:54:25.016 INFO [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - getDevice(): 1c004c000b51353432383931
+2022.06.27 15:54:25.018 DEBUG [DefaultDispatcher-worker-3] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000003d   174 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:54:25.104 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000003d   112 HEADERS       END_HEADERS
+2022.06.27 15:54:25.105 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000003d   602 DATA          
+2022.06.27 15:54:25.105 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000003d     0 DATA          END_STREAM
+2022.06.27 15:54:25.107 INFO [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - sendUpdateBroadcast()
+2022.06.27 15:54:25.109 INFO [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:54:25.110 DEBUG [DefaultDispatcher-worker-3] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000003f   229 HEADERS       END_HEADERS
+2022.06.27 15:54:25.111 DEBUG [DefaultDispatcher-worker-1] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000041   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:54:25.112 DEBUG [DefaultDispatcher-worker-3] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000003f     8 DATA          END_STREAM
+2022.06.27 15:54:25.176 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000041   112 HEADERS       END_HEADERS
+2022.06.27 15:54:25.176 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000041   570 DATA          
+2022.06.27 15:54:25.177 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000041     0 DATA          END_STREAM
+2022.06.27 15:54:25.180 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:54:25.180 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:54:25.295 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000003f   111 HEADERS       END_HEADERS
+2022.06.27 15:54:25.295 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000003f    68 DATA          
+2022.06.27 15:54:25.296 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000003f     0 DATA          END_STREAM
+2022.06.27 15:54:25.663 INFO [main] io.particle.mesh.setup.flow.MeshFlowRunner - endCurrentFlow()
+2022.06.27 15:54:25.663 INFO [main] io.particle.mesh.ui.BaseFlowUiDelegate - showGlobalProgressSpinner(): false
+2022.06.27 15:54:25.668 INFO [main] io.particle.mesh.ui.BaseFlowFragment - Paused fragment: ControlPanelLandingFragment
+2022.06.27 15:54:25.669 INFO [main] io.particle.mesh.ui.BaseFlowActivity - onPause()
+2022.06.27 15:54:25.670 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:54:25.670 INFO [main] io.particle.mesh.setup.flow.FlowRunnerAccessModel - shutdown()
+2022.06.27 15:54:25.671 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:54:25.671 INFO [main] io.particle.mesh.setup.flow.MeshFlowRunner - endCurrentFlow()
+2022.06.27 15:54:25.671 INFO [main] io.particle.mesh.ui.BaseFlowUiDelegate - showGlobalProgressSpinner(): false
+2022.06.27 15:54:25.671 INFO [main] io.particle.mesh.setup.flow.MeshFlowExecutor - endSetup()
+2022.06.27 15:54:25.679 INFO [main] io.particle.mesh.setup.flow.DeviceConnector - doClearCache(): clearing cache for 0 devices
+2022.06.27 15:54:25.679 INFO [main] io.particle.mesh.setup.flow.DeviceConnector - doClearCache(): clearing cache for 0 devices
+2022.06.27 15:54:25.680 INFO [main] io.particle.mesh.ui.controlpanel.ControlPanelActivity - onFlowTerminated()
+2022.06.27 15:54:25.680 INFO [main] io.particle.mesh.ui.controlpanel.ControlPanelActivity - Popping back stack
+2022.06.27 15:54:25.685 DEBUG [DefaultDispatcher-worker-3] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000043   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:54:25.766 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000043   111 HEADERS       END_HEADERS
+2022.06.27 15:54:25.767 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000043   570 DATA          
+2022.06.27 15:54:25.767 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000043     0 DATA          END_STREAM
+2022.06.27 15:54:25.768 INFO [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - getDevice(): 1c004c000b51353432383931
+2022.06.27 15:54:25.769 DEBUG [DefaultDispatcher-worker-3] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000045   174 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:54:25.839 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000045   112 HEADERS       END_HEADERS
+2022.06.27 15:54:25.840 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000045   602 DATA          
+2022.06.27 15:54:25.840 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000045     0 DATA          END_STREAM
+2022.06.27 15:54:25.842 INFO [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - sendUpdateBroadcast()
+2022.06.27 15:54:25.850 INFO [DefaultDispatcher-worker-7] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:54:25.853 DEBUG [DefaultDispatcher-worker-7] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000047   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:54:25.937 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000047   112 HEADERS       END_HEADERS
+2022.06.27 15:54:25.938 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000047   570 DATA          
+2022.06.27 15:54:25.938 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000047     0 DATA          END_STREAM
+2022.06.27 15:54:25.941 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:54:25.941 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:54:27.495 INFO [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - getDevice(): 1c004c000b51353432383931
+2022.06.27 15:54:27.501 DEBUG [DefaultDispatcher-worker-8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000049   174 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:54:27.591 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000049   113 HEADERS       END_HEADERS
+2022.06.27 15:54:27.592 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000049   602 DATA          
+2022.06.27 15:54:27.593 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000049     0 DATA          END_STREAM
+2022.06.27 15:54:27.595 INFO [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - sendUpdateBroadcast()
+2022.06.27 15:54:27.597 DEBUG [DefaultDispatcher-worker-8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000004b   229 HEADERS       END_HEADERS
+2022.06.27 15:54:27.598 DEBUG [DefaultDispatcher-worker-8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000004b     8 DATA          END_STREAM
+2022.06.27 15:54:27.612 INFO [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:54:27.614 DEBUG [DefaultDispatcher-worker-1] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000004d   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:54:27.726 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000004b   111 HEADERS       END_HEADERS
+2022.06.27 15:54:27.727 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000004b    67 DATA          
+2022.06.27 15:54:27.728 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000004b     0 DATA          END_STREAM
+2022.06.27 15:54:27.746 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000004d   112 HEADERS       END_HEADERS
+2022.06.27 15:54:27.749 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000004d   570 DATA          
+2022.06.27 15:54:27.750 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000004d     0 DATA          END_STREAM
+2022.06.27 15:54:27.755 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:54:27.755 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:54:28.681 INFO [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - getDevice(): 1c004c000b51353432383931
+2022.06.27 15:54:28.684 DEBUG [DefaultDispatcher-worker-8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000004f   174 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:54:28.767 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000004f   111 HEADERS       END_HEADERS
+2022.06.27 15:54:28.767 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000004f   602 DATA          
+2022.06.27 15:54:28.768 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000004f     0 DATA          END_STREAM
+2022.06.27 15:54:28.770 INFO [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - sendUpdateBroadcast()
+2022.06.27 15:54:28.772 DEBUG [DefaultDispatcher-worker-8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000051   229 HEADERS       END_HEADERS
+2022.06.27 15:54:28.772 DEBUG [DefaultDispatcher-worker-8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000051     8 DATA          END_STREAM
+2022.06.27 15:54:28.775 INFO [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:54:28.776 DEBUG [DefaultDispatcher-worker-5] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000053   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:54:28.911 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000053   112 HEADERS       END_HEADERS
+2022.06.27 15:54:28.913 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000053   570 DATA          
+2022.06.27 15:54:28.914 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000053     0 DATA          END_STREAM
+2022.06.27 15:54:28.918 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:54:28.919 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:54:28.922 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000051   111 HEADERS       END_HEADERS
+2022.06.27 15:54:28.929 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000051    68 DATA          
+2022.06.27 15:54:28.931 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000051     0 DATA          END_STREAM
+2022.06.27 15:54:29.249 DEBUG [DefaultDispatcher-worker-3] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000055   235 HEADERS       END_HEADERS
+2022.06.27 15:54:29.250 DEBUG [DefaultDispatcher-worker-3] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000055    24 DATA          END_STREAM
+2022.06.27 15:54:29.402 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000055   111 HEADERS       END_HEADERS
+2022.06.27 15:54:29.403 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000055    25 DATA          
+2022.06.27 15:54:29.404 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000055     0 DATA          END_STREAM
+2022.06.27 15:54:34.508 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=27
+2022.06.27 15:54:34.511 TRACE [AsyncTask #20] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=43
+2022.06.27 15:54:34.511 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=28
+2022.06.27 15:54:34.513 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=29
+2022.06.27 15:54:34.514 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=30
+2022.06.27 15:54:34.514 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=31
+2022.06.27 15:54:34.514 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=38
+2022.06.27 15:54:34.515 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=39
+2022.06.27 15:54:34.515 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=40
+2022.06.27 15:54:34.515 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=41
+2022.06.27 15:54:34.515 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=42
+2022.06.27 15:54:34.516 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=44
+2022.06.27 15:54:34.516 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=45
+2022.06.27 15:54:34.516 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=46
+2022.06.27 15:54:34.517 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=47
+2022.06.27 15:54:34.517 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=48
+2022.06.27 15:54:34.532 INFO [main] io.particle.android.sdk.ui.devicelist.DeviceListTransformer - Transformed list of 1 devices down to 1 using config=DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:54:35.689 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelAll()
+2022.06.27 15:54:35.690 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelAll()
+2022.06.27 15:54:35.693 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:54:35.699 INFO [main] io.particle.mesh.common.android.livedata.ClearValueOnInactiveLiveData - LD deactivated, clearing value
+2022.06.27 15:54:35.700 INFO [main] io.particle.mesh.common.android.livedata.ClearValueOnInactiveLiveData - LD deactivated, clearing value
+2022.06.27 15:54:35.701 INFO [main] io.particle.mesh.ui.controlpanel.ControlPanelLandingFragment - onStop()
+2022.06.27 15:54:35.702 INFO [main] io.particle.mesh.setup.flow.FlowRunnerAccessModel - onCleared()
+2022.06.27 15:54:35.702 INFO [main] io.particle.mesh.setup.flow.FlowRunnerAccessModel - shutdown()
+2022.06.27 15:54:35.703 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:54:35.703 INFO [main] io.particle.mesh.setup.flow.MeshFlowRunner - endCurrentFlow()
+2022.06.27 15:54:35.703 INFO [main] io.particle.mesh.ui.BaseFlowUiDelegate - showGlobalProgressSpinner(): false
+2022.06.27 15:54:35.704 INFO [main] io.particle.mesh.setup.flow.MeshFlowExecutor - endSetup()
+2022.06.27 15:54:35.705 INFO [main] io.particle.mesh.ui.BaseFlowFragment - Destroyed fragment: ControlPanelLandingFragment
+2022.06.27 15:54:35.711 INFO [main] io.particle.mesh.setup.flow.DeviceConnector - doClearCache(): clearing cache for 0 devices
+2022.06.27 15:54:42.802 INFO [AsyncTask #16] pl.brightinventions.slf4android.LogTask - Creating zip of log files!
+2022.06.27 15:54:42.803 INFO [AsyncTask #16] io.particle.android.sdk.utils.logging.FileLogging - No old zip file to delete, bailing out. Zip file path: /storage/emulated/0/Android/data/io.particle.android.app/cache/particle_android_app_logs.zip
+2022.06.27 15:54:42.804 INFO [AsyncTask #16] io.particle.android.sdk.utils.logging.FileLogging - Found 1 files ending in '.log'
+2022.06.27 15:54:42.820 INFO [AsyncTask #16] io.particle.android.sdk.utils.logging.FileLogging - Created zip file: /storage/emulated/0/Android/data/io.particle.android.app/cache/particle_android_app_logs.zip
+2022.06.27 15:54:42.820 INFO [AsyncTask #16] pl.brightinventions.slf4android.LogTask - Created zip file! path=/storage/emulated/0/Android/data/io.particle.android.app/cache/particle_android_app_logs.zip
+2022.06.27 15:54:42.849 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=49
+2022.06.27 15:54:42.850 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=50
+2022.06.27 15:54:42.850 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=51
+2022.06.27 15:54:42.850 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=52
+2022.06.27 15:54:42.850 TRACE [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=53
+2022.06.27 15:54:47.159 DEBUG [DefaultDispatcher-worker-4] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000057   165 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:54:47.363 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000057   113 HEADERS       END_HEADERS
+2022.06.27 15:54:47.365 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000057  1459 DATA          
+2022.06.27 15:54:47.365 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000057     0 DATA          END_STREAM
+2022.06.27 15:54:47.399 TRACE [DefaultDispatcher-worker-4] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=54
+2022.06.27 15:54:47.399 TRACE [DefaultDispatcher-worker-4] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=55
+2022.06.27 15:54:47.399 TRACE [DefaultDispatcher-worker-4] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=56
+2022.06.27 15:54:47.399 TRACE [DefaultDispatcher-worker-4] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=57
+2022.06.27 15:54:47.400 TRACE [DefaultDispatcher-worker-4] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=58
+2022.06.27 15:54:47.973 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:54:48.526 DEBUG [AsyncTask #19] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000059   212 HEADERS       END_HEADERS
+2022.06.27 15:54:48.526 DEBUG [AsyncTask #19] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000059    24 DATA          END_STREAM
+2022.06.27 15:54:48.822 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000059   112 HEADERS       END_HEADERS
+2022.06.27 15:54:48.823 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000059   122 DATA          
+2022.06.27 15:54:48.824 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000059     0 DATA          END_STREAM
+2022.06.27 15:54:58.007 DEBUG [AsyncTask #18] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000005b   212 HEADERS       END_HEADERS
+2022.06.27 15:54:58.009 DEBUG [AsyncTask #18] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000005b    24 DATA          END_STREAM
+2022.06.27 15:54:58.225 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000005b   112 HEADERS       END_HEADERS
+2022.06.27 15:54:58.233 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000005b   122 DATA          
+2022.06.27 15:54:58.235 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000005b     0 DATA          END_STREAM
+2022.06.27 15:55:02.662 INFO [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:55:02.664 DEBUG [DefaultDispatcher-worker-8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000005d   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:55:02.734 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000005d   111 HEADERS       END_HEADERS
+2022.06.27 15:55:02.735 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000005d   570 DATA          
+2022.06.27 15:55:02.735 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000005d     0 DATA          END_STREAM
+2022.06.27 15:55:02.737 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:55:02.737 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:55:02.738 INFO [main] io.particle.android.sdk.ui.devicelist.DeviceListTransformer - Transformed list of 1 devices down to 1 using config=DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:55:03.589 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=59
+2022.06.27 15:55:03.589 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=60
+2022.06.27 15:55:03.589 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=61
+2022.06.27 15:55:03.590 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=62
+2022.06.27 15:55:03.590 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=63
+2022.06.27 15:55:03.652 DEBUG [DefaultDispatcher-worker-1] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000005f   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:55:03.777 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000005f   112 HEADERS       END_HEADERS
+2022.06.27 15:55:03.779 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000005f   570 DATA          
+2022.06.27 15:55:03.779 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000005f     0 DATA          END_STREAM
+2022.06.27 15:55:03.781 INFO [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - getDevice(): 1c004c000b51353432383931
+2022.06.27 15:55:03.782 DEBUG [DefaultDispatcher-worker-1] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000061   174 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:55:03.853 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000061   112 HEADERS       END_HEADERS
+2022.06.27 15:55:03.854 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000061   602 DATA          
+2022.06.27 15:55:03.854 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000061     0 DATA          END_STREAM
+2022.06.27 15:55:03.856 INFO [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - sendUpdateBroadcast()
+2022.06.27 15:55:03.874 INFO [DefaultDispatcher-worker-2] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:55:03.876 DEBUG [DefaultDispatcher-worker-2] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000063   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:55:03.946 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000063   112 HEADERS       END_HEADERS
+2022.06.27 15:55:03.947 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000063   570 DATA          
+2022.06.27 15:55:03.948 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000063     0 DATA          END_STREAM
+2022.06.27 15:55:03.950 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:55:03.950 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:55:03.950 INFO [main] io.particle.android.sdk.ui.devicelist.DeviceListTransformer - Transformed list of 1 devices down to 1 using config=DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:55:12.654 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:55:13.041 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=27
+2022.06.27 15:55:13.041 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=28
+2022.06.27 15:55:13.041 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=29
+2022.06.27 15:55:13.041 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=30
+2022.06.27 15:55:13.042 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=31
+2022.06.27 15:55:13.043 TRACE [AsyncTask #18] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=64
+2022.06.27 15:55:13.046 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=38
+2022.06.27 15:55:13.046 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=39
+2022.06.27 15:55:13.047 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=40
+2022.06.27 15:55:13.047 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=41
+2022.06.27 15:55:13.047 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=42
+2022.06.27 15:55:13.047 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=44
+2022.06.27 15:55:13.048 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=45
+2022.06.27 15:55:13.048 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=46
+2022.06.27 15:55:13.048 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=47
+2022.06.27 15:55:13.049 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=48
+2022.06.27 15:55:13.049 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=65
+2022.06.27 15:55:13.049 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=66
+2022.06.27 15:55:13.049 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=67
+2022.06.27 15:55:13.050 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=68
+2022.06.27 15:55:13.050 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=69
+2022.06.27 15:55:23.672 DEBUG [DefaultDispatcher-worker-1] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000065   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:55:23.763 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000065   112 HEADERS       END_HEADERS
+2022.06.27 15:55:23.763 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000065   570 DATA          
+2022.06.27 15:55:23.765 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000065     0 DATA          END_STREAM
+2022.06.27 15:55:23.766 INFO [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - getDevice(): 1c004c000b51353432383931
+2022.06.27 15:55:23.767 DEBUG [DefaultDispatcher-worker-1] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000067   174 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:55:23.838 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000067   112 HEADERS       END_HEADERS
+2022.06.27 15:55:23.838 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000067   602 DATA          
+2022.06.27 15:55:23.839 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000067     0 DATA          END_STREAM
+2022.06.27 15:55:23.840 INFO [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - sendUpdateBroadcast()
+2022.06.27 15:55:23.855 INFO [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:55:23.857 DEBUG [DefaultDispatcher-worker-8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000069   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:55:23.935 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000069   112 HEADERS       END_HEADERS
+2022.06.27 15:55:23.937 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000069   570 DATA          
+2022.06.27 15:55:23.937 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000069     0 DATA          END_STREAM
+2022.06.27 15:55:23.941 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:55:23.941 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:55:33.483 DEBUG [DefaultDispatcher-worker-1] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000006b   227 HEADERS       END_HEADERS
+2022.06.27 15:55:33.483 DEBUG [DefaultDispatcher-worker-1] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000006b    37 DATA          END_STREAM
+2022.06.27 15:55:33.693 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000006b   111 HEADERS       END_HEADERS
+2022.06.27 15:55:33.701 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000006b    68 DATA          
+2022.06.27 15:55:33.703 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000006b     0 DATA          END_STREAM
+2022.06.27 15:55:36.396 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=27
+2022.06.27 15:55:36.398 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=28
+2022.06.27 15:55:36.398 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=29
+2022.06.27 15:55:36.398 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=30
+2022.06.27 15:55:36.399 TRACE [AsyncTask #22] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=70
+2022.06.27 15:55:36.399 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=31
+2022.06.27 15:55:36.400 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=38
+2022.06.27 15:55:36.400 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=39
+2022.06.27 15:55:36.400 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=40
+2022.06.27 15:55:36.400 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=41
+2022.06.27 15:55:36.400 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=42
+2022.06.27 15:55:36.400 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=44
+2022.06.27 15:55:36.400 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=45
+2022.06.27 15:55:36.401 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=46
+2022.06.27 15:55:36.401 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=47
+2022.06.27 15:55:36.401 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=48
+2022.06.27 15:55:36.401 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=65
+2022.06.27 15:55:36.402 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=66
+2022.06.27 15:55:36.403 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=67
+2022.06.27 15:55:36.403 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=68
+2022.06.27 15:55:36.403 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=69
+2022.06.27 15:55:36.403 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=71
+2022.06.27 15:55:36.404 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=72
+2022.06.27 15:55:36.404 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=73
+2022.06.27 15:55:36.405 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=74
+2022.06.27 15:55:36.405 TRACE [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=75
+2022.06.27 15:55:36.469 INFO [main] io.particle.mesh.ui.BaseFlowFragment - Resumed fragment: ControlPanelLandingFragment
+2022.06.27 15:55:36.470 INFO [main] io.particle.android.common.Location - Location services available: true
+2022.06.27 15:55:37.494 INFO [main] io.particle.mesh.setup.flow.MeshFlowRunner - endCurrentFlow()
+2022.06.27 15:55:37.494 INFO [main] io.particle.mesh.ui.BaseFlowUiDelegate - showGlobalProgressSpinner(): false
+2022.06.27 15:55:37.499 INFO [main] io.particle.mesh.ui.BaseFlowFragment - Paused fragment: ControlPanelLandingFragment
+2022.06.27 15:55:37.499 INFO [main] io.particle.mesh.ui.BaseFlowActivity - onPause()
+2022.06.27 15:55:37.500 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:55:37.501 INFO [main] io.particle.mesh.setup.flow.FlowRunnerAccessModel - shutdown()
+2022.06.27 15:55:37.501 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:55:37.501 INFO [main] io.particle.mesh.setup.flow.MeshFlowRunner - endCurrentFlow()
+2022.06.27 15:55:37.501 INFO [main] io.particle.mesh.ui.BaseFlowUiDelegate - showGlobalProgressSpinner(): false
+2022.06.27 15:55:37.502 INFO [main] io.particle.mesh.setup.flow.MeshFlowExecutor - endSetup()
+2022.06.27 15:55:37.510 INFO [main] io.particle.mesh.setup.flow.DeviceConnector - doClearCache(): clearing cache for 0 devices
+2022.06.27 15:55:37.511 INFO [main] io.particle.mesh.setup.flow.DeviceConnector - doClearCache(): clearing cache for 0 devices
+2022.06.27 15:55:37.511 INFO [main] io.particle.mesh.ui.controlpanel.ControlPanelActivity - onFlowTerminated()
+2022.06.27 15:55:37.511 INFO [main] io.particle.mesh.ui.controlpanel.ControlPanelActivity - Popping back stack
+2022.06.27 15:55:37.516 DEBUG [DefaultDispatcher-worker-8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000006d   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:55:37.596 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000006d   111 HEADERS       END_HEADERS
+2022.06.27 15:55:37.596 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000006d   570 DATA          
+2022.06.27 15:55:37.597 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000006d     0 DATA          END_STREAM
+2022.06.27 15:55:37.597 INFO [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - getDevice(): 1c004c000b51353432383931
+2022.06.27 15:55:37.598 DEBUG [DefaultDispatcher-worker-8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000006f   174 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:55:37.681 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000006f   112 HEADERS       END_HEADERS
+2022.06.27 15:55:37.682 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000006f   602 DATA          
+2022.06.27 15:55:37.683 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000006f     0 DATA          END_STREAM
+2022.06.27 15:55:37.684 INFO [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - sendUpdateBroadcast()
+2022.06.27 15:55:37.692 INFO [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:55:37.693 DEBUG [DefaultDispatcher-worker-1] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000071   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:55:37.761 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000071   112 HEADERS       END_HEADERS
+2022.06.27 15:55:37.762 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000071   570 DATA          
+2022.06.27 15:55:37.762 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000071     0 DATA          END_STREAM
+2022.06.27 15:55:37.764 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:55:37.765 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:55:47.535 INFO [main] io.particle.mesh.common.android.livedata.ClearValueOnInactiveLiveData - LD deactivated, clearing value
+2022.06.27 15:55:47.537 INFO [main] io.particle.mesh.common.android.livedata.ClearValueOnInactiveLiveData - LD deactivated, clearing value
+2022.06.27 15:55:47.541 INFO [main] io.particle.mesh.ui.controlpanel.ControlPanelLandingFragment - onStop()
+2022.06.27 15:55:47.543 INFO [main] io.particle.mesh.setup.flow.FlowRunnerAccessModel - onCleared()
+2022.06.27 15:55:47.544 INFO [main] io.particle.mesh.setup.flow.FlowRunnerAccessModel - shutdown()
+2022.06.27 15:55:47.545 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:55:47.546 INFO [main] io.particle.mesh.setup.flow.MeshFlowRunner - endCurrentFlow()
+2022.06.27 15:55:47.546 INFO [main] io.particle.mesh.ui.BaseFlowUiDelegate - showGlobalProgressSpinner(): false
+2022.06.27 15:55:47.547 INFO [main] io.particle.mesh.setup.flow.MeshFlowExecutor - endSetup()
+2022.06.27 15:55:47.550 INFO [main] io.particle.mesh.ui.BaseFlowFragment - Destroyed fragment: ControlPanelLandingFragment
+2022.06.27 15:55:47.560 INFO [main] io.particle.mesh.setup.flow.DeviceConnector - doClearCache(): clearing cache for 0 devices
+2022.06.27 15:56:04.430 INFO [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - getDevice(): 1c004c000b51353432383931
+2022.06.27 15:56:04.433 DEBUG [DefaultDispatcher-worker-8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000073   174 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:56:04.501 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000073   112 HEADERS       END_HEADERS
+2022.06.27 15:56:04.502 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000073   602 DATA          
+2022.06.27 15:56:04.502 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000073     0 DATA          END_STREAM
+2022.06.27 15:56:04.504 INFO [DefaultDispatcher-worker-8] io.particle.android.sdk.cloud.ParticleCloud - sendUpdateBroadcast()
+2022.06.27 15:56:04.506 DEBUG [DefaultDispatcher-worker-8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000075   229 HEADERS       END_HEADERS
+2022.06.27 15:56:04.507 DEBUG [DefaultDispatcher-worker-8] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000075     8 DATA          END_STREAM
+2022.06.27 15:56:04.522 INFO [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:56:04.524 DEBUG [DefaultDispatcher-worker-6] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000077   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:56:04.640 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000075   111 HEADERS       END_HEADERS
+2022.06.27 15:56:04.646 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000075    67 DATA          
+2022.06.27 15:56:04.648 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000075     0 DATA          END_STREAM
+2022.06.27 15:56:04.662 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000077   112 HEADERS       END_HEADERS
+2022.06.27 15:56:04.663 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000077   570 DATA          
+2022.06.27 15:56:04.664 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000077     0 DATA          END_STREAM
+2022.06.27 15:56:04.667 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:56:04.667 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:56:06.176 DEBUG [DefaultDispatcher-worker-6] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000079   235 HEADERS       END_HEADERS
+2022.06.27 15:56:06.177 DEBUG [DefaultDispatcher-worker-6] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000079    24 DATA          END_STREAM
+2022.06.27 15:56:06.390 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000079   111 HEADERS       END_HEADERS
+2022.06.27 15:56:06.394 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000079    25 DATA          
+2022.06.27 15:56:06.397 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000079     0 DATA          END_STREAM
+2022.06.27 15:56:24.471 DEBUG [AsyncTask #23] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000007b   227 HEADERS       END_HEADERS
+2022.06.27 15:56:24.472 DEBUG [AsyncTask #23] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000007b    20 DATA          END_STREAM
+2022.06.27 15:56:24.701 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000007b   111 HEADERS       END_HEADERS
+2022.06.27 15:56:24.704 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000007b    67 DATA          
+2022.06.27 15:56:24.707 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000007b     0 DATA          END_STREAM
+2022.06.27 15:56:42.628 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=27
+2022.06.27 15:56:42.631 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=28
+2022.06.27 15:56:42.631 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=29
+2022.06.27 15:56:42.632 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=30
+2022.06.27 15:56:42.632 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=31
+2022.06.27 15:56:42.632 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=38
+2022.06.27 15:56:42.633 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=39
+2022.06.27 15:56:42.633 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=40
+2022.06.27 15:56:42.633 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=41
+2022.06.27 15:56:42.633 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=42
+2022.06.27 15:56:42.633 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=44
+2022.06.27 15:56:42.634 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=45
+2022.06.27 15:56:42.634 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=46
+2022.06.27 15:56:42.634 TRACE [AsyncTask #24] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=76
+2022.06.27 15:56:42.634 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=47
+2022.06.27 15:56:42.634 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=48
+2022.06.27 15:56:42.635 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=65
+2022.06.27 15:56:42.635 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=66
+2022.06.27 15:56:42.635 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=67
+2022.06.27 15:56:42.635 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=68
+2022.06.27 15:56:42.635 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=69
+2022.06.27 15:56:42.636 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=71
+2022.06.27 15:56:42.636 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=72
+2022.06.27 15:56:42.636 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=73
+2022.06.27 15:56:42.636 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=74
+2022.06.27 15:56:42.636 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=75
+2022.06.27 15:56:42.636 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=77
+2022.06.27 15:56:42.637 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=78
+2022.06.27 15:56:42.639 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=79
+2022.06.27 15:56:42.639 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=80
+2022.06.27 15:56:42.639 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=81
+2022.06.27 15:56:43.331 INFO [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - getDevice(): 1c004c000b51353432383931
+2022.06.27 15:56:43.334 DEBUG [DefaultDispatcher-worker-6] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000007d   174 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:56:43.414 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000007d   112 HEADERS       END_HEADERS
+2022.06.27 15:56:43.416 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000007d   602 DATA          
+2022.06.27 15:56:43.417 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000007d     0 DATA          END_STREAM
+2022.06.27 15:56:43.419 INFO [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - sendUpdateBroadcast()
+2022.06.27 15:56:43.425 INFO [DefaultDispatcher-worker-2] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:56:43.434 DEBUG [DefaultDispatcher-worker-6] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000007f   229 HEADERS       END_HEADERS
+2022.06.27 15:56:43.434 DEBUG [DefaultDispatcher-worker-2] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000081   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:56:43.436 DEBUG [DefaultDispatcher-worker-6] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000007f     8 DATA          END_STREAM
+2022.06.27 15:56:43.495 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000081   112 HEADERS       END_HEADERS
+2022.06.27 15:56:43.496 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000081   570 DATA          
+2022.06.27 15:56:43.496 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000081     0 DATA          END_STREAM
+2022.06.27 15:56:43.499 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:56:43.499 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:56:43.605 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000007f   111 HEADERS       END_HEADERS
+2022.06.27 15:56:43.606 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000007f    68 DATA          
+2022.06.27 15:56:43.607 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000007f     0 DATA          END_STREAM
+2022.06.27 15:56:53.760 DEBUG [DefaultDispatcher-worker-6] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000083   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:56:53.843 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000083   112 HEADERS       END_HEADERS
+2022.06.27 15:56:53.843 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000083   570 DATA          
+2022.06.27 15:56:53.844 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000083     0 DATA          END_STREAM
+2022.06.27 15:56:53.845 INFO [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - getDevice(): 1c004c000b51353432383931
+2022.06.27 15:56:53.846 DEBUG [DefaultDispatcher-worker-6] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000085   174 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:56:53.913 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000085   112 HEADERS       END_HEADERS
+2022.06.27 15:56:53.914 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000085   602 DATA          
+2022.06.27 15:56:53.914 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000085     0 DATA          END_STREAM
+2022.06.27 15:56:53.915 INFO [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - sendUpdateBroadcast()
+2022.06.27 15:56:53.924 INFO [DefaultDispatcher-worker-1] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:56:53.925 DEBUG [DefaultDispatcher-worker-1] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000087   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:56:54.000 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000087   112 HEADERS       END_HEADERS
+2022.06.27 15:56:54.001 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000087   570 DATA          
+2022.06.27 15:56:54.002 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000087     0 DATA          END_STREAM
+2022.06.27 15:56:54.005 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:56:54.005 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:56:58.329 TRACE [AsyncTask #26] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=82
+2022.06.27 15:57:04.637 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=27
+2022.06.27 15:57:04.637 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=28
+2022.06.27 15:57:04.638 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=29
+2022.06.27 15:57:04.638 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=30
+2022.06.27 15:57:04.638 TRACE [AsyncTask #24] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=82
+2022.06.27 15:57:04.641 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=31
+2022.06.27 15:57:04.641 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=38
+2022.06.27 15:57:04.641 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=39
+2022.06.27 15:57:04.641 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=40
+2022.06.27 15:57:04.642 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=41
+2022.06.27 15:57:04.642 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=42
+2022.06.27 15:57:04.642 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=44
+2022.06.27 15:57:04.642 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=45
+2022.06.27 15:57:04.642 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=46
+2022.06.27 15:57:04.642 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=47
+2022.06.27 15:57:04.642 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=48
+2022.06.27 15:57:04.642 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=65
+2022.06.27 15:57:04.644 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=66
+2022.06.27 15:57:04.644 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=67
+2022.06.27 15:57:04.644 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=68
+2022.06.27 15:57:04.645 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=69
+2022.06.27 15:57:04.645 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=71
+2022.06.27 15:57:04.645 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=72
+2022.06.27 15:57:04.645 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=73
+2022.06.27 15:57:04.645 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=74
+2022.06.27 15:57:04.646 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=75
+2022.06.27 15:57:04.646 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=77
+2022.06.27 15:57:04.646 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=78
+2022.06.27 15:57:04.646 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=79
+2022.06.27 15:57:04.646 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=80
+2022.06.27 15:57:04.646 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=81
+2022.06.27 15:57:04.646 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=83
+2022.06.27 15:57:04.647 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=84
+2022.06.27 15:57:04.647 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=85
+2022.06.27 15:57:04.647 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=86
+2022.06.27 15:57:04.647 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=87
+2022.06.27 15:57:04.705 INFO [main] io.particle.mesh.ui.BaseFlowFragment - Resumed fragment: ControlPanelLandingFragment
+2022.06.27 15:57:04.706 INFO [main] io.particle.android.common.Location - Location services available: true
+2022.06.27 15:57:08.333 INFO [main] io.particle.mesh.ui.BaseFlowFragment - Paused fragment: ControlPanelLandingFragment
+2022.06.27 15:57:08.334 INFO [main] io.particle.mesh.ui.BaseFlowActivity - onPause()
+2022.06.27 15:57:08.335 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:57:08.336 INFO [main] io.particle.mesh.setup.flow.FlowRunnerAccessModel - shutdown()
+2022.06.27 15:57:08.337 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:57:08.338 INFO [main] io.particle.mesh.setup.flow.MeshFlowRunner - endCurrentFlow()
+2022.06.27 15:57:08.338 INFO [main] io.particle.mesh.ui.BaseFlowUiDelegate - showGlobalProgressSpinner(): false
+2022.06.27 15:57:08.338 INFO [main] io.particle.mesh.setup.flow.MeshFlowExecutor - endSetup()
+2022.06.27 15:57:08.353 INFO [main] io.particle.mesh.setup.flow.DeviceConnector - doClearCache(): clearing cache for 0 devices
+2022.06.27 15:57:08.354 INFO [main] io.particle.mesh.setup.flow.DeviceConnector - doClearCache(): clearing cache for 0 devices
+2022.06.27 15:57:08.354 INFO [main] io.particle.mesh.ui.controlpanel.ControlPanelActivity - onFlowTerminated()
+2022.06.27 15:57:08.354 INFO [main] io.particle.mesh.ui.controlpanel.ControlPanelActivity - Popping back stack
+2022.06.27 15:57:08.359 DEBUG [DefaultDispatcher-worker-6] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000089   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:57:08.437 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000089   111 HEADERS       END_HEADERS
+2022.06.27 15:57:08.438 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000089   570 DATA          
+2022.06.27 15:57:08.438 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000089     0 DATA          END_STREAM
+2022.06.27 15:57:08.440 INFO [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - getDevice(): 1c004c000b51353432383931
+2022.06.27 15:57:08.441 DEBUG [DefaultDispatcher-worker-6] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000008b   174 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:57:08.510 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000008b   112 HEADERS       END_HEADERS
+2022.06.27 15:57:08.512 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000008b   602 DATA          
+2022.06.27 15:57:08.513 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000008b     0 DATA          END_STREAM
+2022.06.27 15:57:08.514 INFO [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - sendUpdateBroadcast()
+2022.06.27 15:57:08.527 INFO [DefaultDispatcher-worker-7] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:57:08.528 DEBUG [DefaultDispatcher-worker-7] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000008d   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:57:08.592 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000008d   112 HEADERS       END_HEADERS
+2022.06.27 15:57:08.595 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000008d   570 DATA          
+2022.06.27 15:57:08.596 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000008d     0 DATA          END_STREAM
+2022.06.27 15:57:08.598 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:57:08.599 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:57:10.511 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=27
+2022.06.27 15:57:10.512 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=28
+2022.06.27 15:57:10.513 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=29
+2022.06.27 15:57:10.513 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=30
+2022.06.27 15:57:10.513 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=31
+2022.06.27 15:57:10.513 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=38
+2022.06.27 15:57:10.513 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=39
+2022.06.27 15:57:10.514 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=40
+2022.06.27 15:57:10.514 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=41
+2022.06.27 15:57:10.514 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=42
+2022.06.27 15:57:10.514 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=44
+2022.06.27 15:57:10.515 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=45
+2022.06.27 15:57:10.515 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=46
+2022.06.27 15:57:10.517 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=47
+2022.06.27 15:57:10.518 TRACE [AsyncTask #26] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=88
+2022.06.27 15:57:10.526 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=48
+2022.06.27 15:57:10.526 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=65
+2022.06.27 15:57:10.527 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=66
+2022.06.27 15:57:10.527 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=67
+2022.06.27 15:57:10.528 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=68
+2022.06.27 15:57:10.528 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=69
+2022.06.27 15:57:10.528 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=71
+2022.06.27 15:57:10.528 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=72
+2022.06.27 15:57:10.529 INFO [main] io.particle.android.sdk.ui.devicelist.DeviceListTransformer - Transformed list of 1 devices down to 1 using config=DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:57:10.529 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=73
+2022.06.27 15:57:10.529 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=74
+2022.06.27 15:57:10.529 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=75
+2022.06.27 15:57:10.530 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=77
+2022.06.27 15:57:10.530 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=78
+2022.06.27 15:57:10.530 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=79
+2022.06.27 15:57:10.530 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=80
+2022.06.27 15:57:10.531 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=81
+2022.06.27 15:57:10.531 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=83
+2022.06.27 15:57:10.531 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=84
+2022.06.27 15:57:10.531 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=85
+2022.06.27 15:57:10.532 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=86
+2022.06.27 15:57:10.532 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=87
+2022.06.27 15:57:10.532 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=89
+2022.06.27 15:57:10.533 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=90
+2022.06.27 15:57:10.533 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=91
+2022.06.27 15:57:10.533 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=92
+2022.06.27 15:57:10.534 TRACE [DefaultDispatcher-worker-6] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=93
+2022.06.27 15:57:12.977 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=94
+2022.06.27 15:57:12.977 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=95
+2022.06.27 15:57:12.977 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=96
+2022.06.27 15:57:12.978 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=97
+2022.06.27 15:57:12.978 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=98
+2022.06.27 15:57:13.038 DEBUG [DefaultDispatcher-worker-5] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x0000008f   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:57:13.055 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelAll()
+2022.06.27 15:57:13.056 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelAll()
+2022.06.27 15:57:13.057 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:57:13.060 INFO [main] io.particle.mesh.common.android.livedata.ClearValueOnInactiveLiveData - LD deactivated, clearing value
+2022.06.27 15:57:13.061 INFO [main] io.particle.mesh.common.android.livedata.ClearValueOnInactiveLiveData - LD deactivated, clearing value
+2022.06.27 15:57:13.062 INFO [main] io.particle.mesh.ui.controlpanel.ControlPanelLandingFragment - onStop()
+2022.06.27 15:57:13.063 INFO [main] io.particle.mesh.setup.flow.FlowRunnerAccessModel - onCleared()
+2022.06.27 15:57:13.063 INFO [main] io.particle.mesh.setup.flow.FlowRunnerAccessModel - shutdown()
+2022.06.27 15:57:13.064 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 15:57:13.064 INFO [main] io.particle.mesh.setup.flow.MeshFlowRunner - endCurrentFlow()
+2022.06.27 15:57:13.064 INFO [main] io.particle.mesh.ui.BaseFlowUiDelegate - showGlobalProgressSpinner(): false
+2022.06.27 15:57:13.064 INFO [main] io.particle.mesh.setup.flow.MeshFlowExecutor - endSetup()
+2022.06.27 15:57:13.065 INFO [main] io.particle.mesh.ui.BaseFlowFragment - Destroyed fragment: ControlPanelLandingFragment
+2022.06.27 15:57:13.099 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000008f   112 HEADERS       END_HEADERS
+2022.06.27 15:57:13.100 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000008f   570 DATA          
+2022.06.27 15:57:13.100 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x0000008f     0 DATA          END_STREAM
+2022.06.27 15:57:13.101 INFO [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - getDevice(): 1c004c000b51353432383931
+2022.06.27 15:57:13.102 DEBUG [DefaultDispatcher-worker-5] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000091   174 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:57:13.133 INFO [main] io.particle.mesh.setup.flow.DeviceConnector - doClearCache(): clearing cache for 0 devices
+2022.06.27 15:57:13.174 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000091   112 HEADERS       END_HEADERS
+2022.06.27 15:57:13.175 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000091   602 DATA          
+2022.06.27 15:57:13.175 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000091     0 DATA          END_STREAM
+2022.06.27 15:57:13.176 INFO [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - sendUpdateBroadcast()
+2022.06.27 15:57:13.195 INFO [DefaultDispatcher-worker-3] io.particle.android.sdk.cloud.ParticleCloud - getDevices()
+2022.06.27 15:57:13.196 DEBUG [DefaultDispatcher-worker-3] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000093   149 HEADERS       END_STREAM|END_HEADERS
+2022.06.27 15:57:13.262 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000093   112 HEADERS       END_HEADERS
+2022.06.27 15:57:13.263 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000093   570 DATA          
+2022.06.27 15:57:13.263 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - << 0x00000093     0 DATA          END_STREAM
+2022.06.27 15:57:13.265 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - Applying new config: DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:57:13.265 DEBUG [main] io.particle.android.sdk.ui.devicelist.DeviceFilter - New config matches; doing nothing.
+2022.06.27 15:57:13.266 INFO [main] io.particle.android.sdk.ui.devicelist.DeviceListTransformer - Transformed list of 1 devices down to 1 using config=DeviceListViewConfig(sortCriteria=ONLINE_STATUS, onlineStatusFilter=NONE_SELECTED, deviceTypeFilters=[], deviceNameQueryString=null)
+2022.06.27 15:57:19.435 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=27
+2022.06.27 15:57:19.436 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=28
+2022.06.27 15:57:19.436 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=29
+2022.06.27 15:57:19.436 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=30
+2022.06.27 15:57:19.437 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=31
+2022.06.27 15:57:19.437 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=38
+2022.06.27 15:57:19.437 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=39
+2022.06.27 15:57:19.437 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=40
+2022.06.27 15:57:19.437 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=41
+2022.06.27 15:57:19.438 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=42
+2022.06.27 15:57:19.438 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=44
+2022.06.27 15:57:19.438 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=45
+2022.06.27 15:57:19.439 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=46
+2022.06.27 15:57:19.439 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=47
+2022.06.27 15:57:19.439 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=48
+2022.06.27 15:57:19.439 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=65
+2022.06.27 15:57:19.439 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=66
+2022.06.27 15:57:19.440 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=67
+2022.06.27 15:57:19.440 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=68
+2022.06.27 15:57:19.444 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=69
+2022.06.27 15:57:19.444 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=71
+2022.06.27 15:57:19.444 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=72
+2022.06.27 15:57:19.444 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=73
+2022.06.27 15:57:19.444 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=74
+2022.06.27 15:57:19.445 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=75
+2022.06.27 15:57:19.445 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=77
+2022.06.27 15:57:19.445 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=78
+2022.06.27 15:57:19.446 TRACE [AsyncTask #26] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=99
+2022.06.27 15:57:19.452 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=79
+2022.06.27 15:57:19.453 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=80
+2022.06.27 15:57:19.453 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=81
+2022.06.27 15:57:19.453 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=83
+2022.06.27 15:57:19.453 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=84
+2022.06.27 15:57:19.453 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=85
+2022.06.27 15:57:19.453 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=86
+2022.06.27 15:57:19.454 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=87
+2022.06.27 15:57:19.454 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=89
+2022.06.27 15:57:19.454 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=90
+2022.06.27 15:57:19.454 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=91
+2022.06.27 15:57:19.454 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=92
+2022.06.27 15:57:19.454 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=93
+2022.06.27 15:57:19.455 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=100
+2022.06.27 15:57:19.455 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=101
+2022.06.27 15:57:19.455 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=102
+2022.06.27 15:57:19.456 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=103
+2022.06.27 15:57:19.456 TRACE [DefaultDispatcher-worker-5] io.particle.android.sdk.cloud.ParticleCloud - Unsubscribing from events where eventListenerID=104
+2022.06.27 15:57:19.457 INFO [main] io.particle.mesh.setup.flow.Scopes - cancelChildren()
+2022.06.27 16:02:13.291 DEBUG [OkHttp api.particle.io] com.squareup.okhttp.internal.framed.Http2$FrameLogger - >> 0x00000000     8 GOAWAY        
